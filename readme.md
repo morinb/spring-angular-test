@@ -1,0 +1,1 @@
+current video: http://campus.codeschool.com/courses/shaping-up-with-angular-js/level/3/section/1/video/1

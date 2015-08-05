@@ -1,0 +1,13 @@
+
+li.small-image {
+    width: 50px;
+}
+
+li.small-image img {
+    width: 100%;
+}
+
+img{
+    max-width: 230px;
+    max-height: 230px;
+}
