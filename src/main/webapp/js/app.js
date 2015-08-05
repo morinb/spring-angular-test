@@ -8,16 +8,16 @@
     var gems = [
         {
             name: 'Dodecahedron',
-            price: 110.50,
-            description: 'Some gems have hidden qualitites beyound their luster, beyond their shine... Dodeca is one of those gems.',
+            price: 2.95,
+            description: 'Some gems have hidden qualities beyond their luster, beyond their shine... Dodeca is one of those gems.',
             canPurchase: true,
             soldOut: false
         },
         {
             name: "Pentagonal Gem",
             price: 5.95,
-            description: '',
-            canPurchase: false
+            description: 'Origin of the Pentagoanl Gem is unknown, hence its low value. It has a fairly high shine and 12 sides, however.',
+            canPurchase: true
         }
     ];
 
