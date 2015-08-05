@@ -16,11 +16,11 @@
 
 </head>
 <body ng-controller="StoreController as store">
-    <div class="list-group" ng-hide="store.product.soldOut">
-        <h1>{{store.product.name}}</h1>
-        <h2> ${{store.product.price}}</h2>
-        <p> {{store.product.description}} </p>
-        <button ng-show="store.product.canPurchase">Add to cart</button>
+    <div class="list-group" ng-hide="store.products[0].soldOut">
+        <h1>{{store.products[0].name}}</h1>
+        <h2> ${{store.products[0].price}}</h2>
+        <p> {{store.products[0].description}} </p>
+        <button ng-show="store.products[0].canPurchase">Add to cart</button>
     </div>
 </body>
 </html>
